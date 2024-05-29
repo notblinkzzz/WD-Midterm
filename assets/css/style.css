@@ -1,0 +1,359 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 600vh;
+    width: 100%;
+    background: blue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstCol {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: red;
+    flex-direction: column;
+}
+.nav {
+    display: flex;
+    background: #1e2039;
+    height: 7%;
+    width: 100%;
+}
+.firstColContainer {
+    display: flex;
+    background: red;
+    height: 93%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstColUpper {
+    display: flex;
+    background: #fff;
+    height: 40%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    background: green;
+    width: 240px;
+    height: 240px;
+    border-radius: 160px;
+}
+
+.firstColBottom {
+    display: flex;
+    background: pink;
+    height: 60%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondCol {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: red;
+    flex-direction: column;
+}
+
+.secondColTextDiv {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background: grey;
+}
+
+
+.secondRowDiv {
+    display: flex;
+    height: 95%;
+    width: 100%;
+    background: pink;
+    flex-direction: row;
+
+}
+
+.secondRowLeft {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgDiv {
+    display: flex;
+    height: 80%;
+    width: 90%;
+    background: pink;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftImg {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.secondRowRight {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background: green;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rightImg {
+    display: flex;
+    width: 80%;
+    height: 80%;
+}
+
+.imgDivText {
+    display: flex;
+}
+
+.thirdCol {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: yellow;
+    flex-direction: column;
+}
+
+.thirdColTopContainer {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    background: beige;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdColTopLeftRow {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: row;
+    background: blue;
+    justify-content: flex-end;
+    font-size: 2.5em;
+}
+
+.thirdColTopRightRow {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: row;
+    background: pink;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.thirdColBottomContainer {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    background: grey;
+    flex-direction: column;
+}
+
+.fourthCol {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: gold;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fourthColFirstCol {
+    display: flex;
+    height: 100%;
+    width: 33.3333333%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: pink;
+}
+
+.fourtColFirstColFirstRow {
+    display: flex;
+    height: 33.3333333%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+}
+
+.fourtColFirstColSecondRow {
+    display: flex;
+    height: 33.3333333%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: beige;
+}
+
+.fourtColFirstColThirdRow {
+    display: flex;
+    height: 33.3333333%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: darkgray;
+}
+
+.fourthColSecondCol {
+    display: flex;
+    height: 100%;
+    width: 33.3333333%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: green;
+}
+
+.fourtColSecondColFirstRow {
+    display: flex;
+    height: 33.3333333%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: tomato;
+}
+
+.fourtColSecondColSecondRow {
+    display: flex;
+    height: 33.3333333%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+}
+
+.fourtColSecondColThirdRow {
+    display: flex;
+    height: 33.3333333%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: pink;
+}
+
+.fourthColThirdCol {
+    display: flex;
+    height: 100%;
+    width: 33.3333333%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+}
+
+.fourtColThirdColFirstRow {
+    display: flex;
+    height: 33.3333333%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+}
+
+.fourtColThirdColSecondRow {
+    display: flex;
+    height: 33.3333333%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: darkblue;
+}
+
+.fourtColThirdColThirdRow {
+    display: flex;
+    height: 33.3333333%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+}
+
+
+
+
+.fifthCol {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: beige;
+    flex-direction: column;
+}
+
+.fifthColUpperContainer {
+    display: flex;
+    height: 20%;
+    width: 100%;
+    background: red;
+}
+
+.fifthColBottomContainer {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background: green;
+}
+
+.sixthCol {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: pink;
+    flex-direction: column;
+}
+
+.sixthColUpperContainer {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    background: red;
+}
+
+.sixthColBottomContainer {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    background: green;
+}
