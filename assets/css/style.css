@@ -402,11 +402,25 @@
     height: 70%;
     width: 100%;
     background: red;
+    background-image: url(/assets/img/background.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.wewant {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+    padding-bottom: 330px;
 }
 
 .sixthColBottomContainer {
     display: flex;
     height: 30%;
     width: 100%;
-    background: green;
+    background: #1e2039;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
