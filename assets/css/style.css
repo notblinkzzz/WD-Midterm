@@ -30,7 +30,7 @@
 }
 .firstColContainer {
     display: flex;
-    background: red;
+    background: #fff;
     height: 93%;
     width: 100%;
     flex-direction: column;
@@ -58,7 +58,7 @@
 
 .firstColBottom {
     display: flex;
-    background: pink;
+    background: #fff;
     height: 60%;
     width: 100%;
     flex-direction: column;
@@ -70,7 +70,7 @@
     display: flex;
     height: 100%;
     width: 100%;
-    background: red;
+    background: #fff;
     flex-direction: column;
 }
 
@@ -78,15 +78,18 @@
     display: flex;
     height: 10%;
     width: 100%;
-    background: grey;
+    background: #fff;
 }
-
+.iamDesigner {
+    font-size: 50px;
+    padding-left: 50px;
+}
 
 .secondRowDiv {
     display: flex;
     height: 95%;
     width: 100%;
-    background: pink;
+    background: #fff;
     flex-direction: row;
 
 }
@@ -95,7 +98,7 @@
     display: flex;
     height: 100%;
     width: 50%;
-    background: red;
+    background: #fff;
     justify-content: center;
     align-items: center;
 }
@@ -104,7 +107,7 @@
     display: flex;
     height: 80%;
     width: 90%;
-    background: pink;
+    background: #fff;
     justify-content: center;
     align-items: center;
 }
@@ -119,7 +122,7 @@
     display: flex;
     height: 100%;
     width: 50%;
-    background: green;
+    background: #fff;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -139,7 +142,7 @@
     display: flex;
     height: 100%;
     width: 100%;
-    background: yellow;
+    background: #fff;
     flex-direction: column;
 }
 
@@ -147,7 +150,7 @@
     display: flex;
     height: 50%;
     width: 100%;
-    background: beige;
+    background: #fff;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -158,7 +161,7 @@
     height: 100%;
     width: 50%;
     flex-direction: row;
-    background: blue;
+    background: #fff;
     justify-content: flex-end;
     font-size: 2.5em;
 }
@@ -168,27 +171,50 @@
     height: 100%;
     width: 50%;
     flex-direction: row;
-    background: pink;
+    background: #fff;
     justify-content: flex-start;
     align-items: center;
     font-size: 1.5em;
+}
+.loremTopRight {
+    padding-left: 20px;
 }
 
 .thirdColBottomContainer {
     display: flex;
     height: 50%;
     width: 100%;
-    background: grey;
+    background: #fff;
     flex-direction: column;
+}
+
+.weDesign {
+    padding-top: 50px;
+    padding-left: 200px;
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+}
+.viewPortfolio {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 1.5em;
 }
 
 .fourthCol {
     display: flex;
     height: 100%;
     width: 100%;
-    background: gold;
+    background: #fff;
     flex-direction: row;
     justify-content: center;
+}
+
+.allImg {
+    width: 90%;
+    height: 90%;
 }
 
 .fourthColFirstCol {
@@ -198,7 +224,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: pink;
+    background: #fff;
 }
 
 .fourtColFirstColFirstRow {
@@ -208,7 +234,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: grey;
+    background: #fff;
 }
 
 .fourtColFirstColSecondRow {
@@ -218,7 +244,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: beige;
+    background: #fff;
 }
 
 .fourtColFirstColThirdRow {
@@ -228,7 +254,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: darkgray;
+    background: #fff;
 }
 
 .fourthColSecondCol {
@@ -238,7 +264,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: green;
+    background: #fff;
 }
 
 .fourtColSecondColFirstRow {
@@ -248,7 +274,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: tomato;
+    background: #fff;
 }
 
 .fourtColSecondColSecondRow {
@@ -258,7 +284,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: orange;
+    background: #fff;
 }
 
 .fourtColSecondColThirdRow {
@@ -268,7 +294,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: pink;
+    background: #fff;
 }
 
 .fourthColThirdCol {
@@ -278,7 +304,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: blue;
+    background: #fff;
 }
 
 .fourtColThirdColFirstRow {
@@ -288,7 +314,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: blue;
+    background: #fff;
 }
 
 .fourtColThirdColSecondRow {
@@ -298,7 +324,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: darkblue;
+    background: #fff;
 }
 
 .fourtColThirdColThirdRow {
@@ -308,11 +334,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: lightblue;
+    background: #fff;
 }
-
-
-
 
 .fifthCol {
     display: flex;
@@ -321,12 +344,22 @@
     background: beige;
     flex-direction: column;
 }
+.freepik {
+    display: flex;
+    align-items: center;
+    padding-left: 600px;
+    padding-bottom: 100px;
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 1.3em;
+
+}
 
 .fifthColUpperContainer {
     display: flex;
     height: 20%;
     width: 100%;
-    background: red;
+    background: #fff;
 }
 
 .fifthColBottomContainer {
@@ -334,6 +367,26 @@
     height: 80%;
     width: 100%;
     background: green;
+}
+.leftDivBottom {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    background: #fff;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.rightDivBottom {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #fff;
+    align-items: center;
+    padding-bottom: 150px;
 }
 
 .sixthCol {
